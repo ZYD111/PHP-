@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url(../images/bg.png) no-repeat 100% 100%;
+}
+
+.box {
+    width: 400px;
+    background: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 50%;
+    border-radius:20px;
+}
+
+.form-group {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.box h2 {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.box .btn {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+}
+.box .btn:hover{
+    background:#28a745;
+}

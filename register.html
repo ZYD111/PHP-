@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/public.css">
+    <style>
+        .form-group {
+            margin:5px auto;
+        }
+        .box .btn{
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box position-fixed">
+        <h1 class="text-center"><a href="#">
+            <img src="./images/logo.png" alt="">
+        </a></h1>
+        <h2 class="text-center">-----请您注册-----</h2>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">用户名：</label>
+                <input type="type" class="form-control registerN" id="exampleInputEmail1" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密 码：</label>
+                <input type="text" class="form-control registerP" id="exampleInputPassword1"  autocomplete="off" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">确认密码：</label>
+                <input type="text" class="form-control isPwd" id="exampleInputPassword1"  autocomplete="off" required>
+            </div>
+            <button type="button" class="btn btn-primary">注册</button>
+        </form>
+    </div>
+
+    <!-- 引入的jq   boostrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"
+        integrity="sha384-L2pyEeut/H3mtgCBaUNw7KWzp5n9+4pDQiExs933/5QfaTh8YStYFFkOzSoXjlTb"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/ajax.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+
+</html>
